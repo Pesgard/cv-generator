@@ -1,0 +1,97 @@
+{
+    "personal": {
+      "name": "Esgard David Peinado Perez",
+      "email": "pesgard@gmail.com",
+      "phone": "+52 668 15 15 829",
+      "linkedin": "esgardpeinado",
+      "github": "esgardpeinado"
+    },
+    "summary": "Mobile & Software Developer con experiencia en Android (Kotlin), iOS (Swift básico) y aplicaciones cross-platform. Fuerte en Clean Architecture, SOLID principles y API integration. Motivado a contribuir en equipos dinámicos, aplicar buenas prácticas y crecer en proyectos internacionales.",
+    "experience": [
+      {
+        "title": "Fullstack & Mobile Developer",
+        "company": "Zaaztech",
+        "period": "Nov 2024 – Actualidad",
+        "bullets": [
+          "Desarrollé aplicaciones móviles cross-platform integrando GPS con Vtiger CRM.",
+          "Diseñé e implementé un bridge API que redujo el tiempo de integración con terceros en un 30%.",
+          "Construí un backend de notificaciones en tiempo real basadas en eventos de GPS.",
+          "Usé Kotlin, React Native, Node.js y REST APIs."
+        ]
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Grupo Salud en Movimiento",
+        "period": "Feb 2024 – Oct 2024",
+        "bullets": [
+          "Aplicación de Clean Architecture y SOLID en plataforma web Angular.",
+          "Implementación de autorización de usuarios, tablas dinámicas y notificaciones.",
+          "Construcción de landing page con Astro optimizada para SEO."
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "company": "AXME Industrial",
+        "period": "Jun 2022 – Dic 2023",
+        "bullets": [
+          "Desarrollé aplicaciones web, móviles e IoT para sistemas industriales.",
+          "Implementé gestión de usuarios en la nube y conexiones en tiempo real."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Mexican Sign Language Learning System",
+        "link": "https://example.com/sign-language",
+        "description": "Plataforma educativa con glosario/diccionario potenciado con IA, incluyendo juegos interactivos (Guess the Sign, Memory Match, Word Search) con ranking y modos PvP. Tecnologías: Kotlin, Android Studio, API LLM, SQLite."
+      },
+      {
+        "name": "Basketball Scoreboard with IoT & Cloud Integration",
+        "link": "https://example.com/basketball-scoreboard",
+        "description": "Sistema de puntuación en tiempo real conectado por BLE a un ESP32-S3, mostrando marcador en hardware y sincronizando con Supabase para estadísticas en la nube. Tecnologías: Kotlin, ESP32 (C++), Supabase."
+      }
+    ],
+    "education": [
+      {
+        "period": "Ago 2021 – Dic 2025 (esperado)",
+        "degree": "Bachelor’s Degree in Software Engineering (9° semestre)",
+        "institution": "Universidad Autónoma de Sinaloa",
+        "gpa": ""
+      }
+    ],
+    "skills": [
+      {
+        "category": "Mobile Development",
+        "items": "Kotlin, React Native, Swift (básico), Android Studio, Xcode, Gradle, Room, Retrofit, Jetpack Compose"
+      },
+      {
+        "category": "Frontend",
+        "items": "Angular, React, TailwindCSS, Astro"
+      },
+      {
+        "category": "Backend & APIs",
+        "items": "Node.js, Express, Nest.js, REST APIs"
+      },
+      {
+        "category": "Cloud & DevOps",
+        "items": "AWS (Lambda, S3, EC2, Route 53, SQS, SNS, DynamoDB, Serverless)"
+      },
+      {
+        "category": "Architecture & Patterns",
+        "items": "Clean Architecture, SOLID, Ports & Adapters, MVC, MVVM"
+      },
+      {
+        "category": "Databases",
+        "items": "SQLite, Room, MySQL, PostgreSQL"
+      },
+      {
+        "category": "Version Control",
+        "items": "Git, GitHub, GitLab"
+      },
+      {
+        "category": "Languages",
+        "items": "Native Spanish, English Intermediate"
+      }
+    ]
+  }
+  

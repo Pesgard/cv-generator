@@ -1,0 +1,119 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%   The MIT License (MIT)
+%   Plantilla adaptada para generación automática con SvelteKit
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+\documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{supertabular}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[unicode, draft=false]{hyperref}
+\usepackage{fontawesome5}
+
+%----------------------------------------------------------------------------------------
+%   COLUMN TYPES & COLORS
+%----------------------------------------------------------------------------------------
+% ✅ ESTA LÍNEA FALTABA - Define la columna centrada 'C'
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%----------------------------------------------------------------------------------------
+%   JOB LISTING ENVIRONMENTS
+%----------------------------------------------------------------------------------------
+\newenvironment{jobshort}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    }
+    {}
+
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
+    }
+    {
+    \end{itemize}
+    \end{minipage}    
+    }
+
+%----------------------------------------------------------------------------------------
+%   BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%   HEADER
+%----------------------------------------------------------------------------------------
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{ {{name}} } \\[7.5pt]
+\href{https://github.com/{{github}}}{\raisebox{-0.05\height}\faGithub\ {{github}}} \ $|$ \ 
+\href{https://linkedin.com/in/{{linkedin}}}{\raisebox{-0.05\height}\faLinkedin\ {{linkedin}}} \ $|$ \ 
+\href{mailto:{{email}}}{\raisebox{-0.05\height}\faEnvelope\ {{email}}} \ $|$ \ 
+\href{tel:{{phone}}}{\raisebox{-0.05\height}\faMobile\ {{phone}}} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%   SUMMARY
+%----------------------------------------------------------------------------------------
+\section{Summary}
+{{summary}}
+
+%----------------------------------------------------------------------------------------
+%   EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Work Experience}
+{{experience_block}}
+
+%----------------------------------------------------------------------------------------
+%   PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Projects}
+{{projects_block}}
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+{{education_block}}
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%   SKILLS
+%----------------------------------------------------------------------------------------
+\section{Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+{{skills_block}}
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%   FOOTER
+%----------------------------------------------------------------------------------------
+\vfill
+\center{\footnotesize Last updated: \today}
+
+\end{document}
