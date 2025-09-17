@@ -155,9 +155,9 @@ Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 ## 👤 Autor
 
 **Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [tu-perfil](https://linkedin.com/in/tu-perfil)
-- Email: tu-email@ejemplo.com
+- GitHub: [@pesgard](https://github.com/pesgard)
+- LinkedIn: [esgardpeinado](https://linkedin.com/in/esgardpeinado)
+- Email: esgard.p@axmetech.com
 
 ## 🙏 Agradecimientos
 
